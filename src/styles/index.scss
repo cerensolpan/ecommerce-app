@@ -1,3 +1,5 @@
+@import "../styles/mixins";
+
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -5,9 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  font-family: var(--font-family);
+}
+
 .container {
-  padding: 0;
+  padding: 0 16px;
   margin: 0 auto;
-  max-width: 80vw;
+  
+  @include respond-to(medium) {
+    padding: 0 80px;
+  }
+  
+  @include respond-to(large) {
+    max-width: 1450px;
+  }
+  
+  @include respond-to(xlarge) {
+    max-width: 1450px;
+  }
+
 }
 
