@@ -34,9 +34,9 @@
     &-transparent {
         color: var(--primary);
         background: transparent;
-        border-radius: 22px;
+        border-radius: 10px;
         border: 1px solid var(--primary);
-        padding: 10px;
+        padding: 14px 36px;
 
         svg,
         path {
@@ -50,16 +50,6 @@
             svg,
             path {
                 fill: var(--white);
-            }
-        }
-
-        &:active {
-            background: var(--white);
-            color: var(--primary);
-
-            svg,
-            path {
-                fill: var(--primary);
             }
         }
     }

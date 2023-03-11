@@ -1,0 +1,13 @@
+.breadcrumb {
+    display: flex;
+    font-size: 13px;
+    padding: 4px 0;
+
+    &-item {
+        padding: 0 2px;
+    }
+
+    &-bracket {
+        padding-left: 4px;
+    }
+}
