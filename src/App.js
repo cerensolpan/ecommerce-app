@@ -5,9 +5,9 @@ import categoryList from "../src/categories.json";
 import ProductList from "./components/ProductList/index.js";
 import CategorySection from "./components/CategorySection/index.js";
 import Navbar from "./components/Navbar/index.js";
-import Breadcrumb from "./components/UI/Breadcrumb";
 import Campaigns from "./components/Campaigns";
 import Footer from "./components/Footer";
+// import Breadcrumb from "./components/UI/Breadcrumb";
 
 function App() {
   const categories = [{ title: "Çiçeksepeti Market" }, { title: "İstanbul" }];
@@ -60,7 +60,7 @@ function App() {
       <Navbar />
       <main>
         <div className="container">
-          <Breadcrumb
+          {/* <Breadcrumb
             categories={[
               ...categories,
               {
@@ -69,7 +69,7 @@ function App() {
                 )[0].title,
               },
             ]}
-          />
+          /> */}
           <CategorySection
             activeCategory={activeCategory}
             changeCategory={changeCategory}
