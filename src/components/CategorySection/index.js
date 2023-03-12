@@ -2,7 +2,7 @@ import './style.scss';
 import data from "../../categories.json"
 
 import Icon from '../Icon';
-import { Button } from '../ui/Button';
+import { Button } from '../UI/Button';
 
 const CategorySection = ({activeCategory,changeCategory}) => {
 
