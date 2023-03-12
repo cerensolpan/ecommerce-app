@@ -7,7 +7,7 @@ import CategorySection from "./components/CategorySection/index.js";
 import Navbar from "./components/Navbar/index.js";
 import Campaigns from "./components/Campaigns";
 import Footer from "./components/Footer";
-import Breadcrumb from "./components/Ui/Breadcrumb";
+import Breadcrumb from "./components/UserInterface/Breadcrumb";
 
 function App() {
   const categories = [{ title: "Çiçeksepeti Market" }, { title: "İstanbul" }];
