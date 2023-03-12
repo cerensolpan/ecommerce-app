@@ -6,6 +6,7 @@
       margin-top: 0.625rem;
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      gap: 1.875rem;
 
       @include respond-to(medium) {
         grid-template-columns: repeat(2, 1fr);
@@ -59,21 +60,23 @@
     }
 
     &-title {
-      margin-top: 0.25rem;
-      color: var(--gray-800);
-      font-size: 0.9375rem;
+      color: var(--gray-700);
+      font-size: 15px;
       font-weight: 600;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      margin-top: 2px;
+      margin-bottom: 0;
     }
 
     &-cargo {
-      margin-top: 0.125rem;
-      color: var(--secondary);
+      color: var(--green);
       font-weight: 600;
       font-size: 0.9375rem;
+      margin-top: 2px;
+      margin-bottom: 0;
 
       &--invisible {
         visibility: hidden;
@@ -82,6 +85,7 @@
 
     &-price {
       margin-top: 2px;
+      margin-bottom: 0;
       font-size: 1rem;
       font-weight: 600;
     }
@@ -90,7 +94,7 @@
       border: 1px solid var(--primary);
       background-color: var(--white);
       color: var(--primary);
-      padding: 10px 0 11px 0;
+      padding: 10px 0 10px 0;
       font-size: 15px;
       font-weight: 600;
       margin-top: 0.1875rem;

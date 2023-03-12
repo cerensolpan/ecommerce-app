@@ -6,9 +6,9 @@ import ProductCard from "../ProductCard/index";
 const ProductList = ({ filteredProducts }) => {
   return (
     <section className="filtersection">
-      <div className="filter-title">
+      <div className="filter-all-title">
         <Icon iconName="leaf" />
-        <h2 className="filter-category">Tüm Kategoriler</h2>
+        <h2 className="filter-all-category">Tüm Kategoriler</h2>
       </div>
       {filteredProducts?.length > 0 ? (
         <div className="product-list-wrapper">

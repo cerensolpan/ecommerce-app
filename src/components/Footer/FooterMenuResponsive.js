@@ -30,7 +30,7 @@ const FooterMenuResponsive = () => {
             onClick={() => accordionOnClick(index)}
           >
             <h3>{menu.title}</h3>
-            <Icon name={`${menu.active ? 'chevronUp' : 'chevronDown'}`} />
+            <Icon iconName={`${menu.active ? 'chevron-up' : 'chevron-down'}`} />
           </div>
           <ul className="footer-menu-responsive-list">
             {menu.items.map((item, index) => (

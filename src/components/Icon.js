@@ -2,7 +2,7 @@ import { ReactComponent as Attention } from '../assets/icons/attention.svg';
 import { ReactComponent as Basket } from '../assets/icons/basket.svg';
 import { ReactComponent as ChevronDown } from '../assets/icons/chevron-down.svg';
 import { ReactComponent as ChevronUp } from '../assets/icons/chevron-up.svg';
-import { ReactComponent as CsBlog } from '../assets/icons/cs-blog.svg';
+import { ReactComponent as Blog } from '../assets/icons/blog.svg';
 import { ReactComponent as Facebook } from '../assets/icons/facebook.svg';
 import { ReactComponent as Instagram } from '../assets/icons/instagram.svg';
 import { ReactComponent as Leaf } from '../assets/icons/leaf.svg';
@@ -20,7 +20,7 @@ const Icon = ({ iconName, ...props }) => {
     basket: Basket,
     chevronDown: ChevronDown,
     chevronUp: ChevronUp,
-    csBlog: CsBlog,
+    blog: Blog,
     facebook: Facebook,
     instagram: Instagram,
     leaf: Leaf,

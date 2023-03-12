@@ -8,7 +8,26 @@
 
     &-category {
         padding-left: 4px;
+        font-size: 24px;
         color: var(--primary);
+        font-weight: 400;
+    }
+
+    &-all-title {
+        display: flex;
+        align-items: center;
+        margin-top: 19px !important;
+    }
+
+    &-all-category {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4px;
+        font-size: 20px;
+        color: var(--gray-600);
+        font-weight: 300;
+        margin: 0;
     }
 
     &-tabs {
@@ -17,7 +36,7 @@
         column-gap: 20px;
         overflow-x: auto;
         
-        
+
         @include respond-to(medium) {
             grid-template-columns: repeat(5, 1fr);
             display: grid;
