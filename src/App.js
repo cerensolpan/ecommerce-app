@@ -7,7 +7,7 @@ import CategorySection from "./components/CategorySection/index.js";
 import Navbar from "./components/Navbar/index.js";
 import Campaigns from "./components/Campaigns";
 import Footer from "./components/Footer";
-// import Breadcrumb from "./components/UI/Breadcrumb";
+import Breadcrumb from "./components/Ui/Breadcrumb";
 
 function App() {
   const categories = [{ title: "Çiçeksepeti Market" }, { title: "İstanbul" }];
@@ -27,15 +27,7 @@ function App() {
     }
   };
 
-  console.log(
-    "categoryList.categories.filter(category=>category.id===activeCategory)",
-    categoryList.categories.filter(
-      (category) => category.id === activeCategory
-    )[0].id
-  );
-
   useEffect(() => {
-    console.log("activeCategory", activeCategory);
     if (activeCategory === 1) {
       setFilteredProducts(data.products);
     } else {
@@ -60,7 +52,7 @@ function App() {
       <Navbar />
       <main>
         <div className="container">
-          {/* <Breadcrumb
+          <Breadcrumb
             categories={[
               ...categories,
               {
@@ -69,7 +61,7 @@ function App() {
                 )[0].title,
               },
             ]}
-          /> */}
+          />
           <CategorySection
             activeCategory={activeCategory}
             changeCategory={changeCategory}

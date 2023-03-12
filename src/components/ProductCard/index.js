@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
 import Icon from '../Icon';
 import { addToBasket, removeToBasket } from '../../store/basket';
 
@@ -92,10 +91,6 @@ const ProductCard = ({ product }) => {
       )}
     </>
   );
-};
-
-ProductCard.propTypes = {
-  product: PropTypes.object.isRequired
 };
 
 export default ProductCard;
