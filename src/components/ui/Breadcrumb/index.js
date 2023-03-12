@@ -5,7 +5,9 @@ export const Breadcrumb = ({ categories }) => {
     <div className="breadcrumb">
       {categories.map((category, idx) => {
         return (
-          <div className="breadcrumb-item" href={category.href} key={idx}>
+          <div className={`breadcrumb ${
+            idx === categories.length - 1 && 'breadcrumb-active'
+          }`} key={idx}>
             {category.title}
             {idx < categories.length - 1 && (
               <span className="breadcrumb-bracket">{">"}</span>

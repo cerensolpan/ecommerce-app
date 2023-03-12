@@ -1,13 +1,17 @@
 .breadcrumb {
     display: flex;
+    align-items: center;
     font-size: 13px;
     padding: 4px 0;
 
     &-item {
         padding: 0 2px;
     }
+    &-active {
+        color: var(--green);
+      }
 
     &-bracket {
-        padding-left: 4px;
+        padding: 4px;
     }
 }
