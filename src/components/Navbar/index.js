@@ -1,8 +1,8 @@
 import "./style.scss";
 import { useState, useEffect } from "react";
-import { Button } from "../UI/Button";
+import Button from "../UI/Button";
 import Icon from "../Icon";
-import { SearchInput } from "../UI/SearchInput";
+import SearchInput from "../UI/SearchInput";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 

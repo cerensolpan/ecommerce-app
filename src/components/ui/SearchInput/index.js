@@ -1,8 +1,8 @@
 import "./style.scss";
 import Icon from "../../Icon";
-import { Button } from "../Button";
+import Button from "../Button";
 
-export const SearchInput = ({
+const SearchInput = ({
   icon,
   button,
   placeholder,
@@ -30,3 +30,5 @@ export const SearchInput = ({
     </div>
   );
 };
+
+export default SearchInput;

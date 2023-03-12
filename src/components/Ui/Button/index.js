@@ -1,7 +1,7 @@
 import './style.scss';
 import Icon from '../../Icon';
 
-export const Button = ({
+const Button = ({
   className,
   text,
   color,
@@ -21,3 +21,5 @@ export const Button = ({
     </button>
   );
 };
+
+export default Button;

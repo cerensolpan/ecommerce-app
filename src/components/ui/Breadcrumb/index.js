@@ -1,6 +1,6 @@
 import "./style.scss";
 
-export const Breadcrumb = ({ categories }) => {
+const Breadcrumb = ({ categories }) => {
   return (
     <div className="breadcrumb">
       {categories.map((category, idx) => {
@@ -18,3 +18,5 @@ export const Breadcrumb = ({ categories }) => {
     </div>
   );
 };
+
+export default Breadcrumb;
