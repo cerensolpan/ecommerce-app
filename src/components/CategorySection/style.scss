@@ -1,0 +1,38 @@
+@import '../../styles/mixins';
+
+.filter {
+    &-title {
+        display: flex;
+        align-items: center;
+    }
+
+    &-category {
+        padding-left: 4px;
+        color: var(--primary);
+    }
+
+    &-tabs {
+        display: flex;
+        row-gap: 19px;
+        column-gap: 20px;
+        overflow-x: auto;
+        
+        
+        @include respond-to(medium) {
+            grid-template-columns: repeat(5, 1fr);
+            display: grid;
+        }
+
+        @include respond-to(large) {
+            grid-template-columns: repeat(7, 1fr);
+        }
+    }
+
+    &-button {
+        &-active {
+            background-color: var(--primary) !important;
+            color: var(--white) !important;
+            border-color: var(--primary) !important;
+        }
+    }
+}
