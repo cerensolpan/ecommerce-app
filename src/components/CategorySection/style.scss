@@ -35,6 +35,8 @@
         row-gap: 19px;
         column-gap: 20px;
         overflow-x: auto;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
         
 
         @include respond-to(medium) {

@@ -16,6 +16,8 @@ const FooterMenuResponsive = () => {
 
     setMenus(menu);
   };
+
+  console.log('menu.active', menus)
   return (
     <div className="footer-menu-responsive">
       {menus.map((menu, index) => (
@@ -30,7 +32,7 @@ const FooterMenuResponsive = () => {
             onClick={() => accordionOnClick(index)}
           >
             <h3>{menu.title}</h3>
-            <Icon iconName={`${menu.active ? 'chevron-up' : 'chevron-down'}`} />
+            <Icon iconName={`${menu.active ? 'chevronUp' : 'chevronDown'}`} />
           </div>
           <ul className="footer-menu-responsive-list">
             {menu.items.map((item, index) => (

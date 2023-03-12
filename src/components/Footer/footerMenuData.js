@@ -1,6 +1,7 @@
 export const footerMenu = [
   {
     title: "Faydalı Bilgiler",
+    active: false,
     items: [
       {
         title: "Çiçek Bakımı",
@@ -34,6 +35,7 @@ export const footerMenu = [
   },
   {
     title: "Kurumsal",
+    active: false,
     items: [
       {
         title: "Hakkımızda",
@@ -71,6 +73,7 @@ export const footerMenu = [
   },
   {
     title: "İletişim",
+    active: false,
     items: [
       {
         title: "Bize Ulaşın",
@@ -84,6 +87,7 @@ export const footerMenu = [
   },
   {
     title: "Gizlilik Sözleşmesi",
+    active: false,
     items: [
       {
         title: "Mesafeli Satış Sözleşmesi",
