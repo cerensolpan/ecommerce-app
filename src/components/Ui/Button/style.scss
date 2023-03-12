@@ -16,6 +16,7 @@
     -o-transition: opacity 0.1s ease-in-out;
     transition: opacity 0.1s ease-in-out;
     opacity: 1;
+    cursor: pointer;
 
     &:hover {
         opacity: 0.9;
@@ -32,10 +33,10 @@
     }
 
     &-transparent {
-        color: var(--primary);
+        color: var(--gray-600);
         background: transparent;
         border-radius: 10px;
-        border: 1px solid var(--primary);
+        border: 1px solid var(--gray-100);
         padding: 14px 36px;
 
         svg,
